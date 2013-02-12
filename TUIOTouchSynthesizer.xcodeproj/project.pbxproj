@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F420063316C615F30098976D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F420063216C615F30098976D /* Foundation.framework */; };
+		F420063516C615F30098976D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F420063416C615F30098976D /* CoreGraphics.framework */; };
+		F420063B16C615F30098976D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F420063916C615F30098976D /* InfoPlist.strings */; };
+		F420063D16C615F30098976D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F420063C16C615F30098976D /* main.m */; };
+		F420064116C615F30098976D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F420064016C615F30098976D /* AppDelegate.m */; };
+		F420064316C615F30098976D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F420064216C615F30098976D /* Default.png */; };
+		F420064516C615F30098976D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F420064416C615F30098976D /* Default@2x.png */; };
+		F420064716C615F30098976D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F420064616C615F30098976D /* Default-568h@2x.png */; };
+		F420064A16C615F30098976D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F420064916C615F30098976D /* ViewController.m */; };
+		F420064D16C615F30098976D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F420064B16C615F30098976D /* ViewController.xib */; };
+		F420066516C616130098976D /* TuioClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F420065916C616130098976D /* TuioClient.m */; };
+		F420066616C616130098976D /* TuioCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F420065B16C616130098976D /* TuioCursor.m */; };
+		F420066716C616130098976D /* TuioObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F420065D16C616130098976D /* TuioObject.m */; };
+		F420066816C616130098976D /* WSOSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = F420066016C616130098976D /* WSOSCBundle.m */; };
+		F420066916C616130098976D /* WSOSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F420066216C616130098976D /* WSOSCMessage.m */; };
+		F420066A16C616130098976D /* WSOSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = F420066416C616130098976D /* WSOSCPacket.m */; };
+		F420074016C616E40098976D /* TuioTouchSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F420073F16C616E40098976D /* TuioTouchSynthesizer.m */; };
+		F420074216C618370098976D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F420074116C618370098976D /* MapKit.framework */; };
+		F49607E016C6237600A4C2EC /* KIFEventProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F49607DF16C6237600A4C2EC /* KIFEventProxy.m */; };
+		F49607E316C6243D00A4C2EC /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F49607E216C6243D00A4C2EC /* UITouch-KIFAdditions.m */; };
+		F4E2791616C65F700046AAF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E2791516C65F700046AAF2 /* QuartzCore.framework */; };
+		F4E27C8216C66B490046AAF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E27C8116C66B490046AAF2 /* UIKit.framework */; };
+		F4E5424A16C62C450034E0BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E5424916C62C450034E0BC /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F420062D16C615F30098976D /* Touch Synthesizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch Synthesizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F420063216C615F30098976D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F420063416C615F30098976D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F420063816C615F30098976D /* TUIOTouchSynthesizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TUIOTouchSynthesizer-Info.plist"; sourceTree = "<group>"; };
+		F420063A16C615F30098976D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F420063C16C615F30098976D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F420063E16C615F30098976D /* TUIOTouchSynthesizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TUIOTouchSynthesizer-Prefix.pch"; sourceTree = "<group>"; };
+		F420063F16C615F30098976D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F420064016C615F30098976D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F420064216C615F30098976D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F420064416C615F30098976D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F420064616C615F30098976D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F420064816C615F30098976D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F420064916C615F30098976D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F420064C16C615F30098976D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F420065716C616130098976D /* TUIO_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUIO_Prefix.pch; sourceTree = "<group>"; };
+		F420065816C616130098976D /* TuioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioClient.h; sourceTree = "<group>"; };
+		F420065916C616130098976D /* TuioClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuioClient.m; sourceTree = "<group>"; };
+		F420065A16C616130098976D /* TuioCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioCursor.h; sourceTree = "<group>"; };
+		F420065B16C616130098976D /* TuioCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuioCursor.m; sourceTree = "<group>"; };
+		F420065C16C616130098976D /* TuioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioObject.h; sourceTree = "<group>"; };
+		F420065D16C616130098976D /* TuioObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuioObject.m; sourceTree = "<group>"; };
+		F420065F16C616130098976D /* WSOSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOSCBundle.h; sourceTree = "<group>"; };
+		F420066016C616130098976D /* WSOSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOSCBundle.m; sourceTree = "<group>"; };
+		F420066116C616130098976D /* WSOSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOSCMessage.h; sourceTree = "<group>"; };
+		F420066216C616130098976D /* WSOSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOSCMessage.m; sourceTree = "<group>"; };
+		F420066316C616130098976D /* WSOSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOSCPacket.h; sourceTree = "<group>"; };
+		F420066416C616130098976D /* WSOSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOSCPacket.m; sourceTree = "<group>"; };
+		F420073E16C616E40098976D /* TuioTouchSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioTouchSynthesizer.h; sourceTree = "<group>"; };
+		F420073F16C616E40098976D /* TuioTouchSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuioTouchSynthesizer.m; sourceTree = "<group>"; };
+		F420074116C618370098976D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F49607DE16C6237600A4C2EC /* KIFEventProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KIFEventProxy.h; path = TUIOTouchSynthesizer/KIFEventProxy.h; sourceTree = SOURCE_ROOT; };
+		F49607DF16C6237600A4C2EC /* KIFEventProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KIFEventProxy.m; path = TUIOTouchSynthesizer/KIFEventProxy.m; sourceTree = SOURCE_ROOT; };
+		F49607E116C6243D00A4C2EC /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Vendor/KIF/Additions/UITouch-KIFAdditions.h"; sourceTree = SOURCE_ROOT; };
+		F49607E216C6243D00A4C2EC /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Vendor/KIF/Additions/UITouch-KIFAdditions.m"; sourceTree = SOURCE_ROOT; };
+		F49607E516C624EA00A4C2EC /* LoadableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Vendor/KIF/Additions/LoadableCategory.h; sourceTree = SOURCE_ROOT; };
+		F4E2791516C65F700046AAF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F4E27C8116C66B490046AAF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4E5424916C62C450034E0BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F420062A16C615F30098976D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E27C8216C66B490046AAF2 /* UIKit.framework in Frameworks */,
+				F4E2791616C65F700046AAF2 /* QuartzCore.framework in Frameworks */,
+				F4E5424A16C62C450034E0BC /* CoreLocation.framework in Frameworks */,
+				F420074216C618370098976D /* MapKit.framework in Frameworks */,
+				F420063316C615F30098976D /* Foundation.framework in Frameworks */,
+				F420063516C615F30098976D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F420062416C615F30098976D = {
+			isa = PBXGroup;
+			children = (
+				F49607E416C6246D00A4C2EC /* KIF */,
+				F420065616C616130098976D /* TUIOFramework */,
+				F420063616C615F30098976D /* TUIOTouchSynthesizer */,
+				F420062F16C615F30098976D /* Frameworks */,
+				F420062E16C615F30098976D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F420062E16C615F30098976D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F420062D16C615F30098976D /* Touch Synthesizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F420062F16C615F30098976D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E27C8116C66B490046AAF2 /* UIKit.framework */,
+				F4E2791516C65F700046AAF2 /* QuartzCore.framework */,
+				F4E5424916C62C450034E0BC /* CoreLocation.framework */,
+				F420074116C618370098976D /* MapKit.framework */,
+				F420063216C615F30098976D /* Foundation.framework */,
+				F420063416C615F30098976D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F420063616C615F30098976D /* TUIOTouchSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				F420073E16C616E40098976D /* TuioTouchSynthesizer.h */,
+				F420073F16C616E40098976D /* TuioTouchSynthesizer.m */,
+				F420063F16C615F30098976D /* AppDelegate.h */,
+				F420064016C615F30098976D /* AppDelegate.m */,
+				F420064816C615F30098976D /* ViewController.h */,
+				F420064916C615F30098976D /* ViewController.m */,
+				F420064B16C615F30098976D /* ViewController.xib */,
+				F420063716C615F30098976D /* Supporting Files */,
+			);
+			path = TUIOTouchSynthesizer;
+			sourceTree = "<group>";
+		};
+		F420063716C615F30098976D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F420063816C615F30098976D /* TUIOTouchSynthesizer-Info.plist */,
+				F420063916C615F30098976D /* InfoPlist.strings */,
+				F420063C16C615F30098976D /* main.m */,
+				F420063E16C615F30098976D /* TUIOTouchSynthesizer-Prefix.pch */,
+				F420064216C615F30098976D /* Default.png */,
+				F420064416C615F30098976D /* Default@2x.png */,
+				F420064616C615F30098976D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F420065616C616130098976D /* TUIOFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F420065716C616130098976D /* TUIO_Prefix.pch */,
+				F420065816C616130098976D /* TuioClient.h */,
+				F420065916C616130098976D /* TuioClient.m */,
+				F420065A16C616130098976D /* TuioCursor.h */,
+				F420065B16C616130098976D /* TuioCursor.m */,
+				F420065C16C616130098976D /* TuioObject.h */,
+				F420065D16C616130098976D /* TuioObject.m */,
+				F420065E16C616130098976D /* WSOSC */,
+			);
+			path = TUIOFramework;
+			sourceTree = "<group>";
+		};
+		F420065E16C616130098976D /* WSOSC */ = {
+			isa = PBXGroup;
+			children = (
+				F420065F16C616130098976D /* WSOSCBundle.h */,
+				F420066016C616130098976D /* WSOSCBundle.m */,
+				F420066116C616130098976D /* WSOSCMessage.h */,
+				F420066216C616130098976D /* WSOSCMessage.m */,
+				F420066316C616130098976D /* WSOSCPacket.h */,
+				F420066416C616130098976D /* WSOSCPacket.m */,
+			);
+			path = WSOSC;
+			sourceTree = "<group>";
+		};
+		F49607E416C6246D00A4C2EC /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				F49607E516C624EA00A4C2EC /* LoadableCategory.h */,
+				F49607E116C6243D00A4C2EC /* UITouch-KIFAdditions.h */,
+				F49607E216C6243D00A4C2EC /* UITouch-KIFAdditions.m */,
+				F49607DE16C6237600A4C2EC /* KIFEventProxy.h */,
+				F49607DF16C6237600A4C2EC /* KIFEventProxy.m */,
+			);
+			name = KIF;
+			path = TUIOFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F420062C16C615F30098976D /* Touch Synthesizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F420065316C615F30098976D /* Build configuration list for PBXNativeTarget "Touch Synthesizer" */;
+			buildPhases = (
+				F420062916C615F30098976D /* Sources */,
+				F420062A16C615F30098976D /* Frameworks */,
+				F420062B16C615F30098976D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Touch Synthesizer";
+			productName = TUIOTouchSynthesizer;
+			productReference = F420062D16C615F30098976D /* Touch Synthesizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F420062516C615F30098976D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Simon Heys Limited";
+			};
+			buildConfigurationList = F420062816C615F30098976D /* Build configuration list for PBXProject "TUIOTouchSynthesizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F420062416C615F30098976D;
+			productRefGroup = F420062E16C615F30098976D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F420062C16C615F30098976D /* Touch Synthesizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F420062B16C615F30098976D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F420063B16C615F30098976D /* InfoPlist.strings in Resources */,
+				F420064316C615F30098976D /* Default.png in Resources */,
+				F420064516C615F30098976D /* Default@2x.png in Resources */,
+				F420064716C615F30098976D /* Default-568h@2x.png in Resources */,
+				F420064D16C615F30098976D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F420062916C615F30098976D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F420063D16C615F30098976D /* main.m in Sources */,
+				F420064116C615F30098976D /* AppDelegate.m in Sources */,
+				F420064A16C615F30098976D /* ViewController.m in Sources */,
+				F420066516C616130098976D /* TuioClient.m in Sources */,
+				F420066616C616130098976D /* TuioCursor.m in Sources */,
+				F420066716C616130098976D /* TuioObject.m in Sources */,
+				F420066816C616130098976D /* WSOSCBundle.m in Sources */,
+				F420066916C616130098976D /* WSOSCMessage.m in Sources */,
+				F420066A16C616130098976D /* WSOSCPacket.m in Sources */,
+				F420074016C616E40098976D /* TuioTouchSynthesizer.m in Sources */,
+				F49607E016C6237600A4C2EC /* KIFEventProxy.m in Sources */,
+				F49607E316C6243D00A4C2EC /* UITouch-KIFAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F420063916C615F30098976D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F420063A16C615F30098976D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F420064B16C615F30098976D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F420064C16C615F30098976D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F420065116C615F30098976D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F420065216C615F30098976D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F420065416C615F30098976D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iOS-Runtime-Headers-master/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TUIOTouchSynthesizer/TUIOTouchSynthesizer-Prefix.pch";
+				INFOPLIST_FILE = "TUIOTouchSynthesizer/TUIOTouchSynthesizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F420065516C615F30098976D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iOS-Runtime-Headers-master/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TUIOTouchSynthesizer/TUIOTouchSynthesizer-Prefix.pch";
+				INFOPLIST_FILE = "TUIOTouchSynthesizer/TUIOTouchSynthesizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F420062816C615F30098976D /* Build configuration list for PBXProject "TUIOTouchSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F420065116C615F30098976D /* Debug */,
+				F420065216C615F30098976D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F420065316C615F30098976D /* Build configuration list for PBXNativeTarget "Touch Synthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F420065416C615F30098976D /* Debug */,
+				F420065516C615F30098976D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F420062516C615F30098976D /* Project object */;
+}
