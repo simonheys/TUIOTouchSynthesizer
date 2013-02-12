@@ -1,0 +1,3 @@
+[submodule "Vendor/KIF"]
+	path = Vendor/KIF
+	url = https://github.com/square/KIF.git
